@@ -4,11 +4,11 @@ body {
   /* Everything is Raleway */
   font-family: 'Lato', sans-serif;
 }
-/* Except we're using more specific rules to override the headlines */
-h1, h2, h3, h4, h5, h6 {
+
+/* h1, h2, {
   font-family: 'Lato', sans-serif;
 
-}
+} */
 
 .navbar-brand {
   font-size: 40px;
@@ -21,7 +21,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .jumbotron {
   /* Background */
- 
   background-image: url(jumbo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,13 +33,10 @@ h1, h2, h3, h4, h5, h6 {
  text-align: center;
  background-color: #F6F4F4;
  padding: 3rem;
- 
- 
 }
 
 .jumbotron-album-icon {
   font-size: 40px;
- 
 }
 
 
@@ -48,7 +44,6 @@ h1, .jumbotron, .display-4 {
   color: black;
   font-weight: 1000;
   font-family: 'Sacramento', cursive;
-
 }
 
 .bottomrsvp {
@@ -57,7 +52,7 @@ h1, .jumbotron, .display-4 {
   text-align: center;
 }
 
-.rotateimg90 {
+/* .rotateimg90 {
   -webkit-transform:rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -66,10 +61,9 @@ h1, .jumbotron, .display-4 {
 }
 
 img.resize {
-  width:540px; /* you can use % */
+  width:540px; 
   height: auto;
-}
-
+} */
 
 .album {
   /* Background */
@@ -85,5 +79,4 @@ img.resize {
 
 .table {
   font-size: 10px;
- 
 }
